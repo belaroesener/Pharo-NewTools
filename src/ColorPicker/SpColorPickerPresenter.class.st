@@ -31,6 +31,12 @@ SpColorPickerPresenter >> color [
 	^ colorPickerPresenter color
 ]
 
+{ #category : 'accessing' }
+SpColorPickerPresenter >> color: aColor [
+
+	^ colorPickerPresenter setColor: aColor
+]
+
 { #category : 'layout' }
 SpColorPickerPresenter >> defaultLayout [ 
 
